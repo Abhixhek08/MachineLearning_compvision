@@ -34,19 +34,6 @@ model.add(Dropout(0.5))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-### Traffic Management System Prototype Architecture
-
-```mermaid
-graph TD
-    A[Centralized Traffic Management] --> B[Predictive Analytics]
-    A --> C[Efficient Routing for Emergency Vehicles]
-    A --> D[Dynamic Signs for Real-time Updates]
-    A --> E[Collaborative Coordination with Neighbouring Cities]
-    A --> F[Optimized Traffic Signals]
-    A --> G[Smart Parking Guidance]
-    A --> H[Open APIs for Third-party Access]
-    A --> I[Continuous System Enhancement]
-```
 
 ## Achieved Results on Validation Dataset
 
