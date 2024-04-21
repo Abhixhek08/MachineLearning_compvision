@@ -14,7 +14,7 @@ Our pipeline involves the development of a Convolutional Neural Network (CNN) mo
 
 
 ```python
-# Section 7: Build Improved CNN Model
+
 model = Sequential()
 model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(img_size[0], img_size[1], 3)))
 model.add(BatchNormalization())
